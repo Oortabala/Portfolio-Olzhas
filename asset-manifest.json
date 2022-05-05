@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Olzhas/static/css/main.992e129b.css",
+    "main.js": "/Portfolio-Olzhas/static/js/main.b0451a37.js",
+    "static/media/olzhas.png": "/Portfolio-Olzhas/static/media/olzhas.03eb8a4532b3575c041b.png",
+    "static/media/wreath.png": "/Portfolio-Olzhas/static/media/wreath.2c335658356e2ab1c39b.png",
+    "static/media/map.png": "/Portfolio-Olzhas/static/media/map.73948584a92a3fc87a6f.png",
+    "static/media/phone.png": "/Portfolio-Olzhas/static/media/phone.5767c9a6e33dab2fb4b3.png",
+    "static/media/sun.png": "/Portfolio-Olzhas/static/media/sun.580c9de7998005d4b247.png",
+    "static/media/gmail.png": "/Portfolio-Olzhas/static/media/gmail.f8dfbe8b0875e9328ff2.png",
+    "static/media/moon.png": "/Portfolio-Olzhas/static/media/moon.12490b744359937a6bf5.png",
+    "index.html": "/Portfolio-Olzhas/index.html",
+    "main.992e129b.css.map": "/Portfolio-Olzhas/static/css/main.992e129b.css.map",
+    "main.b0451a37.js.map": "/Portfolio-Olzhas/static/js/main.b0451a37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.992e129b.css",
+    "static/js/main.b0451a37.js"
+  ]
+}
