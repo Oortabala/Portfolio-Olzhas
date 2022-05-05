@@ -4,10 +4,20 @@ import Email from "../../img/gmail.png";
 import Address from "../../img/map.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import React from "react";
+
 
 const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
+let Addalert = () => {
+  debugger;
+  let text = newPostElement;
+  alert(text);
+}
+
+let newPostElement = React.createElement();
 
   return (
     <div className="c">
@@ -38,8 +48,8 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
+            <textarea ref={{newPostElement}}  style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <button onClick={ Addalert }>Submit</button>
           </form>
         </div>
       </div>
